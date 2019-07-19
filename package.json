@@ -1,0 +1,23 @@
+{
+  "name": "enriqueaparicio",
+  "version": "1.0.0",
+  "description": "Enrique Aparicio Castellanos",
+  "author": "wikett",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.5.4",
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0",
+    "nuxt-purgecss": "^0.2.1",
+    "tailwindcss": "^1.0.5"
+  }
+}
