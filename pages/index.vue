@@ -41,7 +41,7 @@
       eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
     <div class="bg-gray-400">
       <img class="object-cover h-full w-full"
-           src="http://placekitten.com/1280/600">
+           src="https://placekitten.com/1280/600">
     </div>
     <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor
       quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
@@ -60,7 +60,7 @@
       eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
     <div class="bg-gray-400">
       <img class="object-cover w-full"
-           src="http://placekitten.com/1280/600">
+           src="https://placekitten.com/1280/600">
     </div>
     <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor
       quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
