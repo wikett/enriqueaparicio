@@ -25,21 +25,7 @@
   .active .footer {
     fill: #223946;
     transform: translate3d(100px, 0, 0);
-  }
-    /*.rectangulo 
-    { 
-      
-    }*/
-    /* .circ {
-      
-    }
-    .text {
-      transform: rotate(90deg) scaleX(0.08) translate3d(-300px, -35px, 0);
-    }
-    .footer {
-      transform: translate3d(100px, 0, 0);
-    } */
-  
+  } 
 
   .page-enter-active {
     transition: opacity 0.25s ease-out;

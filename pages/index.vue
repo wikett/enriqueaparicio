@@ -2,8 +2,12 @@
   <div
        class="container mx-auto bg-orange-300 sm:bg-green-300 md:bg-blue-300 lg:bg-pink-300 xl:bg-yellow-300 border-4 border-black">
     <div class="border-2 border-red-600">
-      <h1 class="block sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">Hello world!</h1>
-      <nuxt-link to="/about" class="no-underline hover:underline">About</nuxt-link>
+      <h1 data-aos="fade-in"
+          data-aos-delay="1000"
+          data-aos-duration="1000"
+          class="block sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">Hello world!</h1>
+      <nuxt-link to="/about"
+                 class="no-underline hover:underline">About</nuxt-link>
     </div>
 
     <h1 class="border-2 border-blue-600 sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">Hello world!</h1>
@@ -40,9 +44,17 @@
       facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna
       eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
     <div class="bg-gray-400">
-      <img class="object-cover h-full w-full"
+      <img data-aos="fade-left" class="object-cover h-full w-full"
            src="https://placekitten.com/1280/600">
     </div>
+    <div data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false"
+    data-aos-anchor-placement="top-center">
     <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor
       quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
       ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra.
@@ -58,8 +70,9 @@
       condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar
       facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna
       eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+    </div>
     <div class="bg-gray-400">
-      <img class="object-cover w-full"
+      <img class="object-cover w-full" data-aos="fade-right" 
            src="https://placekitten.com/1280/600">
     </div>
     <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor
@@ -102,8 +115,13 @@
 </template>
 
 <script>
-  export default {
+  import AOS from 'aos';
+  import 'aos/dist/aos.css';
 
+  export default {
+    mounted() {
+      AOS.init()
+    }
   }
 </script>
 
