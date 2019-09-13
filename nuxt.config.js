@@ -29,13 +29,15 @@ module.exports = {
   */
   css: [
     '~assets/css/tailwind.css',
-    '~assets/css/main.css'
+    '~assets/css/main.css',
+    'aos/dist/aos.css'
   ],
 
   /*
   ** Plugins to load before mounting the App
   */
  plugins: [
+   { src: "~/plugins/aos", mode: 'client'}
   ],
 
   /*

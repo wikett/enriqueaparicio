@@ -51,10 +51,7 @@
     data-aos-offset="200"
     data-aos-delay="50"
     data-aos-duration="1000"
-    data-aos-easing="ease-in-out"
-    data-aos-mirror="true"
-    data-aos-once="false"
-    data-aos-anchor-placement="top-center">
+    >
     <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor
       quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
       ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra.
@@ -115,13 +112,8 @@
 </template>
 
 <script>
-  import AOS from 'aos';
-  import 'aos/dist/aos.css';
-
   export default {
-    mounted() {
-      AOS.init()
-    }
+    
   }
 </script>
 
